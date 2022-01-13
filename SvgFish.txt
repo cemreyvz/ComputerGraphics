@@ -1,0 +1,23 @@
+<svg height="400" width="700" xmlns="http://www.w3.org/2000/svg">
+     <rect width="1000" height="1000" style="fill:rgb(0,76,153);stroke-width:3;stroke:rgb(0,0,0)"></rect>
+     
+      <g id="Balik">  
+       
+    <ellipse cx="400" cy="350" rx="50" ry="25" fill="orange"/>
+  <polygon points="375 350 325 325 325 375" fill="orange"/>
+  <circle cx="430" cy="340" r="5" fill="black"/>
+  <polyline points="420 355 390 375 390 350" stroke-width="3" stroke="darkorange" fill="none"/>
+ 
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-20 10 60" to="-50 105 60" dur="10s" repeatCount="indefinite"/> </g>
+  <g id="Baloncuk">
+  <circle cx="350" cy="100" r="10" opacity="0.7" fill="#DCE9F5" stroke-width="3" stroke="white"/>
+  <circle cx="346" cy="96" r="2" fill="white"/>
+    <animateTransform  attributeName="transform" attributeType="XML" type="scale" from="0 0" to="3 3" dur="6s" repeatCount="indefinite"/>
+  </g>
+ <g id="Baloncuk2">
+  <circle cx="300" cy="80" r="20" opacity="0.7" fill="#DCE9F5" stroke-width="3" stroke="white"/>
+  <circle cx="290" cy="80" r="2" fill="white"/>
+    <animateTransform  attributeName="transform" attributeType="XML" type="scale" from="3 3" to="0 0" dur="6s" repeatCount="indefinite"/>
+  </g>
+  <text x="10" y="30" font-family="sans-serif" font-size="32" fill="black">HW2</text>
+</svg>
